@@ -31,8 +31,8 @@ h1 {
 /*TODO: Add styling rules for the text and images on your website.*/
 
 p {
-  font-size: 1.4em;
-  font-family: 'Dosis', sans-serif;
+  font-size: 1.2em;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -43,17 +43,29 @@ ul {
   background-color: white;
   list-style-type: none;
   text-align: center;
+  width: 100000;
+  overflow: hidden;
+  padding: 1em
 }
 
 li {
   color: #ff6666;
   display: inline;
+  text-align: center;
+  border-right: 2px solid white;
+  
 }
 
 li a {
   color: #ff6666;
   text-decoration: none;
   text-align: center;
+  font-family: sans-serif;
+}
+
+li a:hover {
+  background-color: #ff9999;
+  
 }
 
 .port-img {
