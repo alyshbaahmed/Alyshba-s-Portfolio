@@ -30,9 +30,17 @@ p {
 
 /*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
 
+div {
+  width : 100%;
+  float: center;
+  padding: 0px;
+  text-align: center;
+  align: ;
+}
 ul {
   background-color: white;
   list-style-type: none;
+  width: 100%;
   text-align: center;
   width: 100000;
   overflow: hidden;
@@ -43,7 +51,7 @@ li {
   color: #ff6666;
   display: inline;
   text-align: center;
-  border-right: 2px solid white;
+  border-right: solid white;
 }
 
 li a {
@@ -52,7 +60,7 @@ li a {
   text-align: center;
   font-family: "Rowdies", cursive;
 }
-
+  
 li a:hover {
   background-color: #ff9999;
 }
